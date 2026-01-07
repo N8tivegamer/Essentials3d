@@ -8,9 +8,9 @@ public class Collectible : MonoBehaviour
 
     }
 
-         public float roationSpeed;
+    public float roationSpeed;
 
-          public GameObject onCollectEffect;
+    public GameObject onCollectEffect;
 
 
     // Update is called once per frame
@@ -18,20 +18,22 @@ public class Collectible : MonoBehaviour
     {
 
         transform.Rotate(0, roationSpeed, 0);
-        
+
     }
 
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other)
+    {
 
-        if (other.CompareTag("Player"))s{
+        if (other.CompareTag("Player")) 
+        { 
+
             //Destroy the collectilbe
             Destroy(gameObject);
 
-            // instantiate the particle effect
-            Instantiate(onCollectEffect, transform.position, transform.rotation);
-
+        // instantiate the particle effect
+        Instantiate(onCollectEffect, transform.position, transform.rotation);
         }
 
     }
 
-    }
+}

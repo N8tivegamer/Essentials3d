@@ -432,6 +432,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car_Racing
       objectReference: {fileID: 0}
+    - target: {fileID: 4453251587906699605, guid: b1b1d5422f9604f19b5b88a945ebb435,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2290,7 +2295,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1710fbf00619c474b92da634e36cd0bb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4979312
+      value: -2.486
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1710fbf00619c474b92da634e36cd0bb,
         type: 3}
